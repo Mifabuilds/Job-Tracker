@@ -12,29 +12,29 @@ A full-stack job application tracker built with Next.js 14 (App Router) and Supa
 ```
 src/
 ├── app/
-│   ├── layout.tsx                      # Root layout
-│   ├── page.tsx                        # Redirects → /dashboard
+│   ├── layout.tsx                      
+│   ├── page.tsx                        
 │   ├── globals.css
-│   ├── dashboard/page.tsx              # Stats + full table
+│   ├── dashboard/page.tsx             
 │   └── applications/
-│       ├── page.tsx                    # All applications
-│       ├── new/page.tsx                # Add form
-│       └── [id]/edit/page.tsx          # Edit form
+│       ├── page.tsx                    
+│       ├── new/page.tsx                
+│       └── [id]/edit/page.tsx         
 ├── components/
 │   ├── layout/Sidebar.tsx
 │   └── ui/
-│       ├── ApplicationForm.tsx         # Shared new/edit form
-│       ├── ApplicationsTable.tsx       # Filterable table
-│       ├── CompanyLogo.tsx             # Auto-coloured avatar
+│       ├── ApplicationForm.tsx         
+│       ├── ApplicationsTable.tsx       
+│       ├── CompanyLogo.tsx            
 │       ├── StatCard.tsx
 │       └── StatusBadge.tsx
 ├── lib/
-│   ├── supabase.ts                     # Supabase client
-│   └── applications.ts                 # CRUD functions
+│   ├── supabase.ts                     
+│   └── applications.ts                
 └── types/index.ts
 
 supabase/
-└── migration.sql                       # Run this first in Supabase SQL editor
+└── migration.sql                      
 ```
 
 ## Setup
